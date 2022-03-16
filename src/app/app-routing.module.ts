@@ -3,7 +3,7 @@ import { RouterModule } from '@angular/router';
 import { TestChildComponent } from './test-child.component';
 import { TestComponent } from './test.component';
 @NgModule({
-  declarations: [TestComponent, TestChildComponent],
+  declarations: [],
   imports: [
     RouterModule.forRoot([
       { path: 'test', component: TestComponent },
