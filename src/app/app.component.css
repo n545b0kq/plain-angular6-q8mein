@@ -1,3 +1,21 @@
 p {
   font-family: Lato;
 }
+
+.navigation-links {
+  margin: 20px 0;
+  padding: 15px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+}
+
+.navigation-links a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.navigation-links a:hover {
+  text-decoration: underline;
+  color: #0056b3;
+}
